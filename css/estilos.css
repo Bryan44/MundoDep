@@ -1,0 +1,107 @@
+.jumbotron {
+	background-image: url(https://www.centresmedicscanovas.com/images/deportista.jpg?crc=498575643);
+	background-size: cover;
+	background-position: center;
+	color: #000000;
+	padding: 100px 25px;
+	font-family: sans-serif
+	text-align: center
+}
+.container-fluid {
+padding: 40px 50px;
+}
+.bg-grey {
+background-color: #DCDCDC;
+}
+.panel {
+border: 1px solid #DCDCDC;
+}
+.panel:hover {
+box-shadow: 3px 7px 30px #5dc1b9;
+}
+.equipo .panel-heading {
+    color: #fff;
+    background-color: #008000;
+    padding: 25px;
+    border-bottom: 1px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: #008000;
+}
+.panel-footer h4 {
+    color: #fff;
+    font-size: 15px;
+}
+@media screen and (min-width:320px) {
+	img {
+		max-width:100%;
+	}
+}
+@media screen and (min-width:768px) {
+	img {
+		max-width:150px;
+	}
+}
+@media screen and (min-width:980px) {
+	img {
+		max-width:225px;
+	}
+}
+@media screen and (min-width:1200px) {
+	img {
+		max-width:300px;
+	}
+}
+.icono {
+	color: #008000;
+	font-size: 20px;
+}
+.menu {
+background-color: #000000;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+color: #1EE7E3;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: #F10606;
+    background-color: #fff;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+    color: #2560E9;
+}
+footer .glyphicon {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #008000;
+}
+body {
+	font-size: 24px;
+	line-height: 2.8;
+	color: #000000;
+}
+h2 {
+	font-size:24px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom:30px;
+	background-color: #5dc1b9;
+	}
+	h4 {
+		font-size:19px;
+		line-height: 1.375em;
+		color: #000000;
+		font-weight: 40;
+		margin-bottom:30px;
+		}
